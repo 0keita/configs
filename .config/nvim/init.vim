@@ -67,10 +67,48 @@ if has('vim_starting')
     "" jump to end
     call dein#add('vim-scripts/ruby-matchit')
 
-    "" TODO
-    call dein#add('Shougo/neocomplete.vim')
-    let g:neocomplete#enable_at_startup = 1
-    inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+    if ((has('nvim')) && has('python3')) && system('pip3 show neovim') !=# ''
+      call dein#add('Shougo/deoplete.nvim')
+			let g:deoplete#enable_at_startup = 1
+      let g:python3_host_prog  = '/usr/bin/python3.6'
+      call dein#add('Shougo/neosnippet.vim')
+      call dein#add('Shougo/neosnippet-snippets')
+
+      let g:neosnippet#enable_snipmate_compatibility = 1
+      call dein#add('Shougo/deoplete-rct')
+      call dein#add('fishbullet/deoplete-ruby')
+      if system('which neovim-ruby-host') !=# ''
+        let g:ruby_host_prog = system('which neovim-ruby-host')
+      endif
+
+      call dein#add('osyo-manga/vim-monster')
+      let g:monster#completion#rcodetools#backend = "async_rct_complete"
+      let g:deoplete#sources#omni#input_patterns = {
+        \ "ruby" : '[^. *\t]\.\w*\|\h\w*::',
+        \}
+
+      " Plugin key-mappings.
+      imap <C-k>     <Plug>(neosnippet_expand_or_jump)
+      smap <C-k>     <Plug>(neosnippet_expand_or_jump)
+      xmap <C-k>     <Plug>(neosnippet_expand_target)
+
+      " SuperTab like snippets behavior.
+      imap <expr><TAB> neosnippet#expandable_or_jumpable() ?
+      \ "\<Plug>(neosnippet_expand_or_jump)"
+      \: pumvisible() ? "\<C-n>" : "\<TAB>"
+      smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
+       \ "\<Plug>(neosnippet_expand_or_jump)"
+        \: "\<TAB>"
+
+      " For snippet_complete marker.
+      if has('conceal')
+        set conceallevel=2 concealcursor=i
+      endif
+    elseif has('lua')
+      call dein#add('Shougo/neocomplete.vim')
+      let g:neocomplete#enable_at_startup = 1
+      inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+    endif
 
     "" add 'end' automatically
     call dein#add('tpope/vim-endwise')
