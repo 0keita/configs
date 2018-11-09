@@ -22,6 +22,10 @@ if has('vim_starting')
     call dein#add('DrSpatula/vim-buddy')
     call dein#add('Lokaltog/vim-distinguished')
 
+    "" highlightedyank
+    call dein#add('machakann/vim-highlightedyank')
+    let g:highlightedyank_highlight_duration = 80
+
     "" 行末のスペースの削除
     call dein#add('bronson/vim-trailing-whitespace')
     nnoremap <silent>,dsp :FixWhitespace<CR>
