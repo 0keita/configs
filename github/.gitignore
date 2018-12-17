@@ -1,0 +1,11 @@
+[user]
+  name = typeDog
+[color]
+  ui = auto
+[diff]
+  compactionHeuristic = true
+[core]
+  editor = nvim -c \"set fenc=utf-8\"
+[merge "mergepbx"]
+  name = Xcode project files merger
+  driver = /usr/local/bin/mergepbx %O %A %B
