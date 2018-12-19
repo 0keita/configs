@@ -74,7 +74,7 @@ if has('vim_starting')
     if ((has('nvim')) && has('python3')) && system('pip3 show neovim') !=# ''
       call dein#add('Shougo/deoplete.nvim')
 			let g:deoplete#enable_at_startup = 1
-      let g:python3_host_prog  = system('which python')
+      let g:python3_host_prog  = '/usr/bin/python3.6'
       call dein#add('Shougo/neosnippet.vim')
       call dein#add('Shougo/neosnippet-snippets')
 
