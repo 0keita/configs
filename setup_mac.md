@@ -90,17 +90,17 @@ git clone https://github.com/kylef/swiftenv.git ~/.swiftenv<Paste>
 ```
 
 1. carthage
-```
+```sh
 brew install carthage
 ```
 
 1. androidtool
-```
+```sh
 brew cask install androidtool
 ```
 
 1. neovim
-```
+```sh
 pyenv virtualenv 2.7.15 py2neovim
 pyenv virtualenv 3.7.1 py3neovim
 
@@ -113,6 +113,6 @@ sh ./installer.sh
 ```
 
 1. carthage
-```
+```sh
 brew install carthage
 ```
