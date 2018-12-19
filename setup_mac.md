@@ -1,10 +1,10 @@
 1. ひたすらインストール
   * Xcode
+  * [HHKB](:ttps://www.pfu.fujitsu.com/hhkeyboard/macdownload.html)
   * [Google日本語入力](https://www.google.co.jp/ime/)
   * [Chrome](https://www.google.com/intl/ja_ALL/chrome/)
   * [Clipy](https://clipy-app.com/)
   * [iterm2](https://www.iterm2.com/)
-  * [Android Studio](https://developer.android.com/studio/?hl=ja)
   * [Android Studio](https://developer.android.com/studio/?hl=ja)
 1. Xcode
 1. iterm2
