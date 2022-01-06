@@ -4,6 +4,7 @@
   * [Google日本語入力](https://www.google.co.jp/ime/)
   * [Chrome](https://www.google.com/intl/ja_ALL/chrome/)
   * [Clipy](https://clipy-app.com/)
+  * [Alfred](https://www.alfredapp.com/)
   * [iterm2](https://www.iterm2.com/) or [kitty](https://sw.kovidgoyal.net/kitty/)
   * [Android Studio](https://developer.android.com/studio/?hl=ja)
 1. Xcode
