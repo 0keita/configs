@@ -7,6 +7,12 @@
   * [Alfred](https://www.alfredapp.com/)
   * [iterm2](https://www.iterm2.com/) or [kitty](https://sw.kovidgoyal.net/kitty/)
   * [Android Studio](https://developer.android.com/studio/?hl=ja)
+  * [Notion](https://www.notion.so/desktop)
+  * [Spotify](https://www.spotify.com/jp/download/mac/)
+  * [Zoom](https://zoom.us/download)
+  * [Slack](https://slack.com/intl/ja-jp/downloads/mac)
+  * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-mac/)
+  * [Visual Studio Code](https://code.visualstudio.com/download)
 1. Xcode
 1. iterm2
 
