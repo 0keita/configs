@@ -1,19 +1,18 @@
 1. ひたすらインストール
   * Xcode
-  * [HHKB](:ttps://www.pfu.fujitsu.com/hhkeyboard/macdownload.html)
+  * [HHKB](https://www.pfu.fujitsu.com/hhkeyboard/macdownload.html)
   * [Google日本語入力](https://www.google.co.jp/ime/)
   * [Chrome](https://www.google.com/intl/ja_ALL/chrome/)
   * [Clipy](https://clipy-app.com/)
-  * [iterm2](https://www.iterm2.com/)
+  * [iterm2](https://www.iterm2.com/) or [kitty](https://sw.kovidgoyal.net/kitty/)
   * [Android Studio](https://developer.android.com/studio/?hl=ja)
 1. Xcode
 1. iterm2
 
 todo
-hack類の回答
-
-nvimの変換とか対応
-keychain
+- hack類の解凍
+- nvimの変換とか対応
+- keychain
 
 
 
@@ -24,7 +23,7 @@ https://brew.sh/
 brew update
 ```
 
-1. zhs
+1. zsh
 ```sh
 brew install zsh
 
