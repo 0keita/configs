@@ -1,20 +1,27 @@
-1. ひたすらインストール
-  * Xcode
+### 1. ひたすらインストール
+#### tools
   * [HHKB](https://www.pfu.fujitsu.com/hhkeyboard/macdownload.html)
   * [Google日本語入力](https://www.google.co.jp/ime/)
   * [Chrome](https://www.google.com/intl/ja_ALL/chrome/)
   * [Clipy](https://clipy-app.com/)
   * [Alfred](https://www.alfredapp.com/)
+  * [Notion](https://www.notion.so/desktop)
+
+#### private
+  * [Spotify](https://www.spotify.com/jp/download/mac/)
+  * Kindle
+  * honto
+  * DMM books
+
+#### development
+  * Xcode
   * [iterm2](https://www.iterm2.com/) or [kitty](https://sw.kovidgoyal.net/kitty/)
   * [Android Studio](https://developer.android.com/studio/?hl=ja)
-  * [Notion](https://www.notion.so/desktop)
-  * [Spotify](https://www.spotify.com/jp/download/mac/)
   * [Zoom](https://zoom.us/download)
   * [Slack](https://slack.com/intl/ja-jp/downloads/mac)
   * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-mac/)
   * [Visual Studio Code](https://code.visualstudio.com/download)
-1. Xcode
-1. iterm2
+  * [Postman](https://www.postman.com/downloads/)
 
 todo
 - hack類の解凍
