@@ -77,6 +77,11 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
 
+1. Visual Studio Code
+```sh
+cp -rf configs/.vscode ~/
+```
+
 1. ruby
 ```sh
 brew install rbenv
