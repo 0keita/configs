@@ -80,6 +80,7 @@ git config --global user.email johndoe@example.com
 1. Visual Studio Code
 ```sh
 cp -rf configs/.vscode ~/
+cp visual_studio_code_user/* /Users/yoshida_keita/Library/Application\ Support/Code/User/
 ```
 
 1. ruby
