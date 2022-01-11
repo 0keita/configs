@@ -61,11 +61,8 @@ git clone https://github.com/typeDog/configs
 cp -rf configs/.config ./
 
 # font
-brew tap sanemat/font
-brew install --powerline --vim-powerline ricty
-
-# color theme
-git clone https://github.com/aereal/dotfiles
+brew tap homebrew/cask-fonts 
+brew install --cask font-ricty-diminished
 ```
 
 1. peco
