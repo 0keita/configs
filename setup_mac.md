@@ -61,7 +61,7 @@ git clone https://github.com/typeDog/configs
 cp -rf configs/.config ./
 
 # font
-brew tap homebrew/cask-fonts 
+brew tap homebrew/cask-fonts
 brew install --cask font-ricty-diminished
 ```
 
@@ -73,6 +73,14 @@ brew install peco
 1. github
 ```sh
 cp configs/github/.gitconfig ~/
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+```
+
+1. Visual Studio Code
+```sh
+cp -rf configs/.vscode ~/
+cp visual_studio_code_user/* /Users/yoshida_keita/Library/Application\ Support/Code/User/
 ```
 
 1. ruby

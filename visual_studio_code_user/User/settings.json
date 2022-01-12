@@ -1,0 +1,26 @@
+{
+    "C_Cpp.clang_format_sortIncludes": true,
+    "C_Cpp.loggingLevel": "Information",
+    "terminal.external.osxExec": "iTerm",
+    "terminal.integrated.automationShell.osx": "",
+    "terminal.integrated.rendererType": "dom",
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "yapf",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "go.useLanguageServer": true,
+    "go.autocompleteUnimportedPackages": true,
+    "go.lintOnSave": "file",
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "java.home": "/Library/Java/JavaVirtualMachines/liberica-jdk-11-full.jdk/Contents/Home/",
+}
