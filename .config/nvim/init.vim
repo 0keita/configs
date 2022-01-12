@@ -19,14 +19,13 @@ if has('vim_starting')
 
     " General
     "" color theme
-    call dein#add('DrSpatula/vim-buddy')
-    call dein#add('Lokaltog/vim-distinguished')
+    ""call dein#add('ayu-theme/ayu-vim')
 
-    "" highlightedyank
+    "" highlighted in yank
     call dein#add('machakann/vim-highlightedyank')
     let g:highlightedyank_highlight_duration = 80
 
-    "" 行末のスペースの削除
+    "" remove trailing whitespace
     call dein#add('bronson/vim-trailing-whitespace')
     nnoremap <silent>,dsp :FixWhitespace<CR>
 
@@ -49,8 +48,9 @@ if has('vim_starting')
 
     " Git
     "" git command
-    "" READ_LATER : https://qiita.com/yuku_t/items/0c1aff03949cb1b8fe6b
     call dein#add('tpope/vim-fugitive')
+
+    "" READ_LATER : https://qiita.com/yuku_t/items/0c1aff03949cb1b8fe6b
     " grep検索の実行後にQuickFix Listを表示する
     autocmd QuickFixCmdPost *grep* cwindow
     au FileType fugitiveblame nnoremap <silent> <buffer> <ESC><ESC> :q<CR>
@@ -70,11 +70,13 @@ if has('vim_starting')
     " Ruby
     "" jump to end
     call dein#add('vim-scripts/ruby-matchit')
+    call dein#add('ftdetect/ruby.vim')
+    call dein#add('indent/ruby.vim')
 
     if ((has('nvim')) && has('python3')) && system('pip3 show neovim') !=# ''
       call dein#add('Shougo/deoplete.nvim')
 			let g:deoplete#enable_at_startup = 1
-      let g:python3_host_prog  = system('which python')
+      let g:python3_host_prog = system('which python')
       call dein#add('Shougo/neosnippet.vim')
       call dein#add('Shougo/neosnippet-snippets')
 
@@ -179,7 +181,6 @@ if dein#check_install()
 endif
 " dein end
 
-
 set number
 set hlsearch
 set incsearch
@@ -209,7 +210,12 @@ endif
 
 "color theme
 syntax enable
-colorscheme buddy
+
+if (has("termguicolors"))
+ set termguicolors
+endif
+colorscheme tender
+""hi Normal guibg=NONE ctermbg=NONE
 
 " for vim practice
 noremap <Up> <Nop>
@@ -219,4 +225,3 @@ noremap <Right> <Nop>
 inoremap <Up> <Nop>
 inoremap <Down> <Nop>
 inoremap <Right> <Nop>
-
