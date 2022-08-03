@@ -52,12 +52,12 @@ done
 
 cp -rf configs/prezto/.zpreztorc ~/
 
-git clone https://github.com/typeDog/prezto
+git clone https://github.com/0keita/prezto
 cp -rf prezto/modules/my_* prezto/modules/custom .zprezto/modules
 
 chsh -s /usr/local/bin/zsh
 
-git clone https://github.com/typeDog/configs
+git clone https://github.com/0keita/configs
 cp -rf configs/.config ./
 
 # font
