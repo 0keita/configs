@@ -100,7 +100,9 @@ brew install pyenv pyenv-virtualenv
 # zlibでコケたときのみ
 sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
 
-brew install rbenv
+pyenv install 3.10.6
+pyenv install 2.7.18 
+pyenv global 3.10.6 2.7.18 
 ```
 
 ### Backend
