@@ -67,15 +67,15 @@ git config --global user.email johndoe@example.com
 ### editors
 #### vim
 ```sh
-pyenv virtualenv 2.7.15 py2neovim
-pyenv virtualenv 3.7.1 py3neovim
+brew install neovim
 
-pip3 install neovim
-
-gem install neovim
-
+# dein, see: https://github.com/Shougo/dein.vim
 cd ~/.config/nvim/.dein
-sh ./installer.sh
+curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
+sh ./installer.sh ./
+
+# deoplete, see: https://github.com/Shougo/deoplete.nvim
+pip3 install --user pynvim
 ```
 
 #### Visual Studio Code

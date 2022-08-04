@@ -15,7 +15,6 @@ if has('vim_starting')
 		call dein#begin('~/.config/nvim/.dein')
 
 		call dein#add('~/.config/nvim/.dein/repos/github.com/Shougo/dein.vim')
-		call dein#add('Shougo/deoplete.nvim')
 
     " General
     "" color theme
@@ -34,7 +33,7 @@ if has('vim_starting')
 
     " File
     "" FileTree
-    call dein#add('scrooloose/nerdtree')
+    call dein#add('preservim/nerdtree')
     nnoremap <silent><C-e> :NERDTreeToggle<CR>
 
     "" Unite
@@ -68,7 +67,7 @@ if has('vim_starting')
     call dein#add('tpope/vim-surround')
 
     " Ruby
-    "" jump to end
+    "" jump to `end`
     call dein#add('vim-scripts/ruby-matchit')
     call dein#add('ftdetect/ruby.vim')
     call dein#add('indent/ruby.vim')
@@ -131,20 +130,21 @@ if has('vim_starting')
       endif
     augroup END
 
-    "" true/false
+    "" toggle true/false
     call dein#add('AndrewRadev/switch.vim')
     let g:switch_mapping="!"
-    "" FIXME: %style
     autocmd FileType ruby let b:switch_custom_definitions =
       \ [
       \   {
       \     'true': 'false',
       \     'present?': 'blank?',
+      \     'blank?': 'present?',
       \     '&&': '||',
       \     'if': 'unless',
+      \     'unless': 'if',
       \     ':\(\k\+\)\s\+=>': '\1:',
-      \     '\<\(\k\+\):':     ':\1 =>',
-      \     'should ':     'should_not ',
+      \     '\<\(\k\+\):': ':\1 =>',
+      \     'should ': 'should_not ',
       \   },
       \ ]
 
