@@ -52,7 +52,8 @@ cp -rf configs/.config ./
 
 # font
 brew tap homebrew/cask-fonts
-brew install --cask font-ricty-diminished
+brew install font-hackgen
+brew install font-hackgen-nerd
 
 # peco
 brew install peco
