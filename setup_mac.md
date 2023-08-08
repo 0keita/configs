@@ -71,9 +71,7 @@ git config --global user.email johndoe@example.com
 brew install neovim
 
 # dein, see: https://github.com/Shougo/dein.vim
-cd ~/.config/nvim/.dein
-curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
-sh ./installer.sh ./
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Shougo/dein-installer.vim/master/installer.sh)"
 
 # deoplete, see: https://github.com/Shougo/deoplete.nvim
 pip3 install --user pynvim
