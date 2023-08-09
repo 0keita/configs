@@ -70,9 +70,6 @@ git config --global user.email johndoe@example.com
 ```sh
 brew install neovim
 
-# dein, see: https://github.com/Shougo/dein.vim
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/Shougo/dein-installer.vim/master/installer.sh)"
-
 # deoplete, see: https://github.com/Shougo/deoplete.nvim
 pip3 install --user pynvim
 ```
