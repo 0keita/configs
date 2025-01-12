@@ -49,7 +49,6 @@ git clone https://github.com/0keita/configs
 cp -rf configs/.config ./
 
 # font
-brew tap homebrew/cask-fonts
 brew install font-hackgen
 brew install font-hackgen-nerd
 
