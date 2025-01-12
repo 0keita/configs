@@ -1,6 +1,5 @@
 # 1. Install
 ## tools
-  * [HHKB](https://www.pfu.fujitsu.com/hhkeyboard/macdownload.html)
   * [Google日本語入力](https://www.google.co.jp/ime/)
   * [Chrome](https://www.google.com/intl/ja_ALL/chrome/)
   * [Clipy](https://clipy-app.com/)
@@ -10,16 +9,15 @@
 ## private
   * [Spotify](https://www.spotify.com/jp/download/mac/)
   * Kindle
-  * honto
   * DMM books
 
 ## development
   * Xcode
-  * [iterm2](https://www.iterm2.com/) or [kitty](https://sw.kovidgoyal.net/kitty/)
+  * [iterm2](https://www.iterm2.com/) or [Warp](https://www.warp.dev/e)
   * [Android Studio](https://developer.android.com/studio/?hl=ja)
   * [Zoom](https://zoom.us/download)
   * [Slack](https://slack.com/intl/ja-jp/downloads/mac)
-  * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-mac/)
+  * [Docker Desktop](https://docs.docker.com/desktop/setup/install/mac-install/)
   * [Visual Studio Code](https://code.visualstudio.com/download)
   * [Postman](https://www.postman.com/downloads/)
 
