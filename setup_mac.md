@@ -83,9 +83,9 @@ cp visual_studio_code_user/* /Users/yoshida_keita/Library/Application\ Support/C
 ```sh
 brew install rbenv
 rbenv init
-rbenv install 3.1.0
+rbenv install 3.3.4
 rbenv rehash
-rbenv global 3.1.0
+rbenv global 3.3.4
 ```
 
 #### python
