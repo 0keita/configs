@@ -38,14 +38,12 @@ for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
   ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
 done
 
+git clone https://github.com/0keita/configs
 cp -rf configs/prezto/.zpreztorc ~/
 
 git clone https://github.com/0keita/prezto
 cp -rf prezto/modules/my_* prezto/modules/custom .zprezto/modules
 
-chsh -s /usr/local/bin/zsh
-
-git clone https://github.com/0keita/configs
 cp -rf configs/.config ./
 
 # font
