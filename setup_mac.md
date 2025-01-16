@@ -58,6 +58,9 @@ cp configs/github/.gitconfig ~/
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 # SSH auth see: https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+
+# Disable .DS_Store
+defaults write com.apple.desktopservices DSDontWriteNetworkStores True
 ```
 
 ### editors
