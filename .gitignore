@@ -1,2 +1,4 @@
 .config/nvim/.dein/repos/**/*
 .config/nvim/.dein/.cache/**/*
+
+*/.DS_Store
