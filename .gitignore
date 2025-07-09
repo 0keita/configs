@@ -2,3 +2,7 @@
 .config/nvim/.dein/.cache/**/*
 
 */.DS_Store
+
+.claude/projects/
+.claude/statsig/
+.claude/todos/
