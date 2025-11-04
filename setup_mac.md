@@ -18,6 +18,7 @@
   * [Zoom](https://zoom.us/download)
   * [Slack](https://slack.com/intl/ja-jp/downloads/mac)
   * [Docker Desktop](https://docs.docker.com/desktop/setup/install/mac-install/)
+  * [Cursor](https://cursor.com/ja/download)
   * [Visual Studio Code](https://code.visualstudio.com/download)
   * [Postman](https://www.postman.com/downloads/)
 
@@ -72,11 +73,13 @@ brew install neovim
 pip3 install --user pynvim
 ```
 
-#### Visual Studio Code
+#### Visual Studio Code / cursor
 ```sh
 cp -rf configs/.vscode ~/
 cp visual_studio_code_user/* /Users/yoshida_keita/Library/Application\ Support/Code/User/
 ```
+
+Install [Kotlin lsp](https://github.com/Kotlin/kotlin-lsp#vs-code-quick-start)
 
 ### Programming
 #### Ruby
