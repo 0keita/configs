@@ -86,9 +86,9 @@ Install [Kotlin lsp](https://github.com/Kotlin/kotlin-lsp#vs-code-quick-start)
 ```sh
 brew install rbenv
 rbenv init
-rbenv install 3.3.4
+rbenv install 4.0.5
 rbenv rehash
-rbenv global 3.3.4
+rbenv global 4.0.5
 ```
 
 #### python
